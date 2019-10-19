@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbershop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background__black">
+    <header class="block header">
+        <nav class="header__menu">
+            <a class="nav__header" href="#"> Информация </a>
+            <a class="nav__header" href="#"> Новости </a>
+            <a class="nav__header" href="#"> Прайс-лист </a>
+            <a class="nav__header" href="#"> Магазин </a>
+            <a class="nav__header" href="#"> Контакты </a>
+        </nav>
+        <nav class="header__entry">
+            <a class="nav__header__entry" href="#">  </a>
+            <a class="nav__header__entry" href="#"> Вход </a>
+        </nav>
+    </header>
+    </div>
+    <div class="background__img">
+    <section class="block title">
+        <div class="logo">
+            <img class="title__logo" src="foto/index-logo.png" height="155" width="371"/></div>
+        <div class="info">
+            <div class="info__fast">
+                <h3>Быстро</h3>
+                <p>Мы делаем свою работу быстро! Два часа <br>
+                    пролетят незаметно и вы — счастливый <br>
+                    обладатель стильной стрижки-минутки!</p>
+            </div>
+            <div class="info__cool">
+                <h3>Круто</h3>
+                <p>Забудьте, как вы стриглись раньше.<br>
+                    Мы сделаем из вас звезду футбола или кино!<br>
+                    Во всяком случае внешне.</p>
+            </div>
+            <div class="info__expensive">
+                <h3>Дорого</h3>
+                <p>Наши мастера — профессионалы своего дела <br>
+                    и не могут стоить дешево. К тому же, разве цена<br>
+                    не дает определенный статус?</p>
+            </div>
+        </div>
+    </section>
+    <section class="block news">
+        <div class="news__text">
+            <h3> Новости </h3> <br>
+            <p> Нам наконец завезли Ягермайстер! Теперь вы можете <br>
+                пропустить стаканчик во время стрижки <br>
+                11 января </p> <br>
+            <p> В нашей команде пополнение, Борис «Бритва» Стригунец, <br>
+                обладатель множества титулов и наград пополнил наши <br>
+                стройные ряды <br>
+                8 января </p> <br>
+            <button> Все новости </button>
+        </div>
+        <div class="news__photogallery">
+            <h3> ФОТОГАЛЕРЕЯ </h3>
+            <img class="photogallery" src="foto/local-barber-shop-gents-classic-barbershop-menomonee-falls-wisconsin-haircuts-scissors-tools.jpg"
+                 height="230" width="350"/> <br>
+            <div class="news__button">
+                <button class="news__button__back"> Назад </button>
+                <button class="news__button__forth"> Вперед </button>
+            </div>
+        </div>
+    </section>
+    <section class="block contacts">
+        <div class="contacts__text">
+            <h3> Контактная информация </h3> <br>
+            <p> Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                Телефон: +7 (812) 666-02-66 </p><br>
+            <p>Время работы:<br>
+                пн—пт: с 10:00 до 22:00<br>
+                сб—вс: с 10:00 до 19:00</p><br>
+            <button class="contacts__button"> Как проехать </button>
+            <button> Обратная связь </button>
+        </div>
+        <div class="contacts__rcording">
+            <h3> Записаться </h3>
+            <p> Укажите желаемую дату и время и мы свяжемся<br>
+                с вами для подтверждения брони </p>
+            <table>
+                <tr>
+                    <td>
+                        <p>Дата</p>
+                        <input type="date" name="calendar">
+                    </td>
+                    <td>
+                        <form action="formdata" method="post" name="form1">
+                         <p>Время</p>
+                         <p>
+                            <select name="list1" autofocus>
+                            <option> 12:00 </option>
+                            <option> 13:00 </option>
+                            <option> 14:00 </option>
+                            <option> 15:00 </option>
+                            <option> 16:00 </option>
+                            <option> 17:00 </option>
+                            <option> 18:00 </option>
+                            <option> 19:00 </option>
+                            </select>
+                         </p>
+                        </form>
+                    </td>
+                </tr> <br>
+                <tr>
+                    <td>
+                        <p> Ваше имя </p>
+                        <input type="text" name="name" required>
+                    </td>
+                    <td>
+                        <p> Телефон </p>
+                        <input type="text" name="phone" required> <br>
+                    </td>
+                </tr>
+            </table>
+            <input class="input__button" type="submit">
+        </div>
+    </section>
+    <div class="decor"> </div>
+
+    <div class="background__gray">
+    <footer class="block footer">
+        <div class="footer__address">
+            <p> Барбершоп «Бородинский» <br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 <br>
+                Как нас найти? <br>
+                Телефон: +7 (812) 666-02-66 <br>
+            </p>
+        </div>
+        <div class="net">
+            <img class="footer__net" src="foto/vk.png" height="15" width="27"/>
+            <img class="footer__net" src="foto/instagram.png" height="20" width="20"/>
+            <img class="footer__net" src="foto/facebook.png" height="22" width="11"/>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
